@@ -1,0 +1,42 @@
+# Site settings
+title: Eduardo Borges
+description: Site em construção.
+baseurl:"/will-jekyll-template/"
+url: "https://eborgesdev.github.io" 
+
+# User settings
+username: Eduardo
+user_description: Eduardo Developer 
+user_title: Eduardo Front-end Developer (beta)
+email: eborgescb@gmail.com
+twitter_username: eborgesdev
+github_username:  eborgesdev
+disqus_username: eborgesdev
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+ # - title: Series
+ #   url: /series
+  - title: Tags
+    url: /tags
+  - title: About Me
+    url: /about
+
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
